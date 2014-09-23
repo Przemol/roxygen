@@ -21,7 +21,7 @@ splitByWhitespace <- function(string) {
     .Call('roxygen2_splitByWhitespace', PACKAGE = 'roxygen2', string)
 }
 
-wrapString <- function(string, width = 80L, indent = 2L) {
+wrapString <- function(string, width = 80L, indent = 4L) {
     .Call('roxygen2_wrapString', PACKAGE = 'roxygen2', string, width, indent)
 }
 
